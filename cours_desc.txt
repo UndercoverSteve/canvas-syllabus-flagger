@@ -1,0 +1,1 @@
+Introduction to problem solving and the basic building blocks of algorithm design using a modern programming language. Topics include: procedural programming constructs and basic program modularization.
