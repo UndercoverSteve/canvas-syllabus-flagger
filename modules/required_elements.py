@@ -7,16 +7,16 @@
 # TEXT: If the TYPEOF variable is "content", then the document MUST contain this text or this check will fail.
 
 required_elements = {
-    ["General Education"]: {["typeof"]: "header", ["requirements"]: "N/A"}, # FILL IN WITH REQUIRED BOOL (GenEd)
-    ["Course Description"]: {["typeof"]: "header"},
-    ["Pre-requisite / Co-requisite"]: {["typeof"]: "header"},
-    ["Course Learning Outcomes"]: {["typeof"]: "header"},
-    ["Required Text/Materials"]: {["typeof"]: "header"},
-    ["Communication Policy"]: {["typeof"]: "header"},
-    ["Grades"]: {["typeof"]: "header"},
-    ["Course Assignments"]: {["typeof"]: "header"},
-    ["Course Schedule"]: {["typeof"]: "header"},
-    ["Shared College Information"]: {["typeof"]: "content", ["text"]: """
+    #"General Education": {"typeof": "header", "requirements": "N/A"}, # FILL IN WITH REQUIRED BOOL (GenEd)
+    "Course Description": {"typeof": "header"},
+    "Pre-requisite / Co-requisite": {"typeof": "header"},
+    "Course Learning Outcomes": {"typeof": "header"},
+    "Required Text/Materials": {"typeof": "header"},
+    "Communication Policy": {"typeof": "header"},
+    "Grades": {"typeof": "header"},
+    "Course Assignments": {"typeof": "header"},
+    "Course Schedule": {"typeof": "header"},
+    "Shared College Information": {"typeof": "content", "text": """
 Shared College Information
 Consumer Information
 The Higher Education Act of 1965 (amended in 1988 and 2008) requires all post-secondary institutions offering federal financial aid programs to provide key data to both prospective and current students. To comply with this requirement, LC State has developed a consumer information webpage (full URL: https://www.lcsc.edu/consumer-information) for your reference.
@@ -49,6 +49,5 @@ Students using LC State’s computers and/or computer network must comply with t
 If your online or hybrid course has proctored exams, or you have assigned accommodations for testing, you may need to use the LC State Testing Center.  
 If you are located at the Lewiston Campus, you can take proctored exams at the LC State Testing Center. It is located in the Library Building, Rm 161. Call to schedule your exam: 208-792-2100. 
 If you are located near the Coeur d'Alene Center, you may use the NIC Testing Center. They are located on the second floor of Molstead Library. Call to schedule your exam: 208-616-7203.   
-If you are unable to travel to these sites, you can arrange to use an approved proctor at your location.  You will need to contact the LC State Testing Center (full URL: https://www.lcsc.edu/testing-center) to have a proctor approved and arrange to have test passwords and/or materials sent to your local proctor."""
-}
+If you are unable to travel to these sites, you can arrange to use an approved proctor at your location.  You will need to contact the LC State Testing Center (full URL: https://www.lcsc.edu/testing-center) to have a proctor approved and arrange to have test passwords and/or materials sent to your local proctor."""}
 }
